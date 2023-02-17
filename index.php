@@ -17,7 +17,7 @@
             Send Mail with PHPMailer by PercyMH
         </h1>
         <hr>
-        <form action="" class="form p-2">
+        <form action="sendmail.php" method="post" class="form p-2">
             <div class="line py-2">
                 <label for="">Email</label>
                 <div>
@@ -33,8 +33,14 @@
             <div class="line py-2">
                 <label for="">Body</label>
                 <div>
-                    <textarea name="" id="" cols="30" rows="10" class="px-2 py-1 text-[.8rem] rounded w-8/12" style="border: 1px solid #efefef; outline: none;" placeholder="Enter your message">
-                    </textarea>
+                    <textarea name="" id="" cols="30" rows="10" class="px-2 py-1 text-[.8rem] rounded w-8/12" style="border: 1px solid #efefef; outline: none;" placeholder="Enter your message"></textarea>
+                </div>
+            </div>
+            <div class="line py-2">
+                <div class="px-2 py-1 text-[.8rem] rounded w-8/12 flex items-center justify-center">
+                    <button name="button_send_form" class="px-5 py-1 text-[.8rem] rounded bg-blue-500 text-white" style="border: 1px solid #efefef; outline: none;">
+                        Submit
+                    </button>
                 </div>
             </div>
         </form>
